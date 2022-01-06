@@ -21,7 +21,7 @@ conky.config = {
     own_window_class = 'Conky',
     own_window_type = 'desktop',
     own_window_argb_visual = true,
-    own_window_argb_value = 0,
+    own_window_argb_value = 60,
     own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 	border_inner_margin = 0,
 	border_outer_margin = 0,
@@ -48,7 +48,7 @@ conky.config = {
 	lua_draw_hook_post = 'conky_main'
 }
 conky.text = [[
-#${font Michroma:size=10}${color1}${goto 350}${voffset 18}VicyosLinux
+#${font Michroma:size=10}${color1}${goto 350}${voffset 18}AmOs
 #${font Michroma:size=10}${color0}${goto 365}${voffset 18}Youtube
 ${font Play:normal:size=10}${voffset 5}${color1}${goto 120}${freq_g} Ghz${alignr 330}
 ${font Play:normal:size=8}${voffset 0}${goto 120}${color1}CPU 1 ${alignr 330}${color1}${cpu cpu0}%
