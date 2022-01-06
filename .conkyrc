@@ -21,7 +21,7 @@ conky.config = {
     own_window_class = 'Conky',
     own_window_type = 'desktop',
     own_window_argb_visual = true,
-    own_window_argb_value = 60,
+    own_window_argb_value = 150,
     own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 	border_inner_margin = 0,
 	border_outer_margin = 0,
@@ -73,7 +73,7 @@ ${font Michroma:size=10}${color1}${voffset 26}${goto 324}INTERNET  INFO
 
 # EDITION TIME, DATE AND VICYOS LOGO
 
-${font Michroma:size=10}${color1}${voffset -360}${goto 328} Vicyos Linux
+${font Michroma:size=10}${color1}${voffset -360}${goto 328} AmOs
 #${font Michroma:size=9}${alignr 298}${voffset -34}${color1}${time %a} ${color0}${time %x}
 #${font Michroma:size=18}${goto 118}${color1}${voffset -4}${time %H}:${time %M}
 #${font Michroma:size=8}${color1}${goto 296}${voffset 18}
