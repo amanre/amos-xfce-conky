@@ -16,7 +16,7 @@ Changelog:
 + v1.0 -- Original release (28.09.2009)
 
         arg=conky_parse("${if_up wlan0}wlan0${else}eno1${endif}"),
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_colour=conky_parse("${if_up wlan0}wlan0${else}eno1${endif}"),
         conky_parse("${cpu}")
         name=conky_parse("${acpitemp}"),
@@ -37,11 +37,11 @@ Changelog:
 -- ff7200
 -- ff000d
 
---normal_temp="0xD9AA80"
+--normal_temp="0x962179"
 --warn_temp="0x30BDAD"
 --crit_temp="0xf01f42"
 -- Un mélange des deux
-normal="0xD9AA80"
+normal="0x962179"
 warn="0x30BDAD"
 crit="0xff000d"
 
@@ -73,7 +73,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=200, y=120,
         radius=86,
@@ -87,7 +87,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=200, y=120,
         radius=71,
@@ -101,7 +101,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=200, y=120,
         radius=57,
@@ -115,7 +115,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=200, y=120,
         radius=44,
@@ -129,7 +129,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=340, y=234,
         radius=60,
@@ -143,7 +143,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=340, y=234,
         radius=45,
@@ -157,7 +157,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=220, y=280,
         radius=40,
@@ -171,7 +171,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=220, y=280,
         radius=28,
@@ -185,7 +185,7 @@ settings_table = {
         max=100,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=220, y=280,
         radius=16,
@@ -199,7 +199,7 @@ settings_table = {
         max=13700,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=290, y=346,
         radius=30,
@@ -211,9 +211,9 @@ settings_table = {
         name='downspeedf',
         arg='2',
         max=13700,
-        bg_colour=0xD9AA80,
+        bg_colour=0x962179,
         bg_alpha=0.8,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=290, y=346,
         radius=30,
@@ -227,7 +227,7 @@ settings_table = {
         max=13800,
         bg_colour=0x09536E,
         bg_alpha=0.2,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=290, y=346,
         radius=18,
@@ -239,9 +239,9 @@ settings_table = {
         name='upspeedf',
         arg='2',
         max=13800,
-        bg_colour=0xD9AA80,
+        bg_colour=0x962179,
         bg_alpha=0.8,
-        fg_colour=0xD9AA80,
+        fg_colour=0x962179,
         fg_alpha=0.8,
         x=290, y=346,
         radius=18,
